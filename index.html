@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram</title>
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #262626;
+  font-family: Arial, sans-serif;
+}
+
+.top {
+  height: 62px;
+  background: white;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 470px;
+  margin: 35px auto;
+}
+
+.profile {
+  background: white;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 25px;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #d77a94;
+  padding: 3px;
+}
+
+.profile h2 {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0 0 12px;
+}
+
+.stats {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.post {
+  background: white;
+  border: 1px solid #dbdbdb;
+}
+
+.post-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+}
+
+.post-header img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.location {
+  font-size: 11px;
+  color: #777;
+  margin-top: 3px;
+}
+
+.post-photo {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.post-content {
+  padding: 12px;
+}
+
+.icons {
+  font-size: 25px;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+.likes {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.caption {
+  font-size: 13px;
+  line-height: 1.55;
+  margin-bottom: 15px;
+}
+
+.caption b {
+  margin-right: 4px;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 14px 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.comment img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.comment-text {
+  flex: 1;
+}
+
+.comment-text b {
+  margin-right: 4px;
+}
+
+.comment-time {
+  font-size: 10px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.heart {
+  color: #888;
+  font-size: 13px;
+}
+
+.view-comments {
+  color: #999;
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+.date {
+  color: #999;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top">
+  <div class="logo">Instagram</div>
+</div>
+
+<div class="container">
+
+<div class="profile">
+  <img class="avatar"
+  src="Степан.png"
+  alt="Стецько">
+
+  <div>
+    <h2>stetsko_king </h2>
+    <div class="stats">
+      <b>12</b> дописів
+      &nbsp;&nbsp; <b>1 248</b> читачів
+      &nbsp;&nbsp; <b>320</b> стежить
+    </div>
+    <div class="bio">
+       <br>
+       Гончарівка<br>
+    </div>
+  </div>
+</div>
+
+<div class="post">
+
+  <div class="post-header">
+    <img src="Степан.png">
+    <div>
+      <div class="username">ulyana_beauty</div>
+      <div class="location">Гончарівка</div>
+    </div>
+  </div>
+
+  <img class="post-photo"
+  src="Стецько2.jpeg"
+  alt="Портрет Уляни">
+
+  <div class="post-content">
+
+    <div class="icons">♡  ➤</div>
+
+    <div class="likes">248 вподобань</div>
+
+    <div class="caption">
+      <b>stetsko_king </b>
+      Ой, люди, хочу я женитися! Улянка мені дуже подобається, гарна така, і я хочу, щоб вона була моєю жінкою. Я їй уже казав, а вона не хоче. Не знаю чого, бо я ж хороший!
+
+У мене всього багато є: і хата, і їжа, і свині. Батько каже, що я багатий жених. А Улянка все одно хоче якогось Олексія. А він же бідний! Що вона з ним їсти буде? 
+
+Я б Улянці все давав, навіть сало найкраще. Будемо разом їсти, спати, гуляти. А ще я хочу, щоб вона мені вареники варила.
+
+Порадьте, що мені робити, бо я вже хочу весілля. 
+      
+
+      <br><br>
+      <span style="color:#00376b">
+      #кохання #Гончарівка #щастя
+      </span>
+    </div>
+
+    <div class="view-comments">
+      Переглянути всі 5 коментарів
+    </div>
+
+    <div class="comments">
+
+      <div class="comment">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100">
+        <div class="comment-text">
+          <b>oleksii_ua</b>
+          Стецьку, може, ти спочатку навчишся думати, а тоді женитися?
+          <div class="comment-time">2 год. · 12 вподобань</div>
+        </div>
+        <span class="heart">♡</span>
+      </div>
+
+      <div class="comment">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100">
+        <div class="comment-text">
+          <b>odarka_mama</b>
+          Ой, який гарний жених! Улянко, не вередуй, кращого не знайдеш!
+          <div class="comment-time">1 год. · 3 вподобання</div>
+        </div>
+        <span class="heart">♡</span>
+      </div>
+
+ <div class="comment">
+  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100">
+  <div class="comment-text">
+    <b>ulyana_beauty</b>
+    Стецьку, та не треба мені твого сала! Я Олексія люблю!
+    <div class="comment-time">48 хв. · 8 вподобань</div>
+  </div>
+  <span class="heart">♡</span>
+</div>
+
+<div class="comment">
+  <img src="Адзюка.png">
+  <div class="comment-text">
+    <b>kandziuba_official</b>
+    Та йди ти, Уляно! Мій Стецько багатий, а твій Олексій що має?
+    <div class="comment-time">35 хв. · 2 вподобання</div>
+  </div>
+  <span class="heart">♡</span>
+</div>
+
+<div class="comment">
+  <img src="Степан.png">
+  <div class="comment-text">
+    <b>stetsko_king</b>
+    Ага! І я ще й гарний! 
+    <div class="comment-time">30 хв. · 4 вподобання</div>
+  </div>
+  <span class="heart">♡</span>
+</div>
+    <div class="date">9 листопада 1820</div>
+
+  </div>
+</div>
+</div>
+
+</body>
+</html>
